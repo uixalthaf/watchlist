@@ -1,5 +1,4 @@
 .movie-card{
-  padding:10px;
   border-radius: 4px;
   border: none !important;
 }
@@ -10,8 +9,8 @@
 }
 .movies-grid{
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  gap: 10px;
+  grid-template-columns: repeat(6,1fr);
+  gap: 15px;
  
 }
 body{
@@ -89,7 +88,7 @@ button{
 }
 @media screen and (min-width:1000px) {
   .movie-card{
-  width: 20vw;
+  width: 14vw;
    
   }
 }
@@ -98,4 +97,14 @@ button{
   font-weight: 400;
   font-style: normal;
   color: black;
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.fav-block img{
+  width: 20vw;
 }

@@ -8,9 +8,10 @@ function Favorites(){
 
 console.log(index); // Output: 1
     return(
-        <div className="d-flex flex-column gap-1 justify-content-center align-items-center">
-            <h5 className="">No Favorite Movies added yet{likedMovies[0]} </h5>
-            <p className="fav-cap">추가하면 여기에 표시됩니다</p>
+        <div className="fav-block d-flex flex-column gap-1 justify-content-center align-items-center">
+
+            <h5 className="">No Favorite Movies added yet</h5>
+            <p className="fav-cap">Add them and they will show up here</p>
 
             <h5>{movies[index].title}</h5>
             <img src={movies[index].url} alt="" />

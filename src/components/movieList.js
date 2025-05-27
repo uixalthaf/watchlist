@@ -113,7 +113,7 @@ const movies=[
     },
     {
       id: 17,
-      title: "The Secret Life of Walter Mitty",
+      title: "Walter Mitty",
       release_date: "2024",
       url: "https://i.pinimg.com/736x/48/3a/4f/483a4f9158c4b7d04f61b76ad522eaa8.jpg",
       description: "Walter escapes his dull life through vivid daydreams. Until he sets out on a real adventure across the globe. It’s a film about courage, discovery, and awakening. Visually stunning and deeply uplifting."
@@ -139,6 +139,35 @@ const movies=[
       url: "https://i.pinimg.com/736x/00/2a/f4/002af4980397f5fcf21f5b5e7b7842ea.jpg",
       description: "This is not a love story. It’s a story about love. Tom falls hard for Summer—but reality hits different. A nonlinear journey through hope and heartbreak. Honest, stylish, and emotionally sharp."
     }
+    ,
+    {
+        id: 20,
+        title: "Spider-Man",
+        release_date: "2024",
+        url: "https://i.pinimg.com/736x/bc/5e/d8/bc5ed8ca77d70ac7d99c21a19c5a64e5.jpg",
+        description: "This is not a love story. It’s a story about love. Tom falls hard for Summer—but reality hits different. A nonlinear journey through hope and heartbreak. Honest, stylish, and emotionally sharp."
+      },
+      {
+        id: 21,
+        title: "Prometheus",
+        release_date: "2024",
+        url: "https://i.pinimg.com/736x/34/4c/1a/344c1a27f1d6240e577c5bfc38453482.jpg",
+        description: "This is not a love story. It’s a story about love. Tom falls hard for Summer—but reality hits different. A nonlinear journey through hope and heartbreak. Honest, stylish, and emotionally sharp."
+      },
+      {
+        id: 22,
+        title: "Alien Covenant",
+        release_date: "2024",
+        url: "https://i.pinimg.com/736x/2a/f6/32/2af632d0c9097a19dc79ec9912aef85e.jpg",
+        description: "This is not a love story. It’s a story about love. Tom falls hard for Summer—but reality hits different. A nonlinear journey through hope and heartbreak. Honest, stylish, and emotionally sharp."
+      },
+      {
+        id: 23,
+        title: "Conjuring",
+        release_date: "2024",
+        url: "https://i.pinimg.com/736x/9d/68/1c/9d681c2f779a87e40ac711e2592d2c16.jpg",
+        description: "This is not a love story. It’s a story about love. Tom falls hard for Summer—but reality hits different. A nonlinear journey through hope and heartbreak. Honest, stylish, and emotionally sharp."
+      }
   ]
   
   export default movies;

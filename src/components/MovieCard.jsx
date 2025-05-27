@@ -7,10 +7,12 @@ import { likedMovies } from './likedMovies';
 function MovieCard({movie,onClick}){
 
 
-const likedMovies=[];
+const [likedMovies,setlikedMovies]=useState([]);
+var mov=null;
 const onFavoriteClick= (e) => {
     e.stopPropagation();
-likedMovies.push(movie.id)
+    mov=movie.id
+    setlikedMovies(likedMovies.push(mov))
   console.log(likedMovies); // if you want to see the updated list immediately
 localStorage.setItem('likedMovies',JSON.stringify(likedMovies))
 };
@@ -19,7 +21,7 @@ localStorage.setItem('likedMovies',JSON.stringify(likedMovies))
         <div className="movie-card card" onClick={()=>onClick(movie)}>
             <div className="movie-poster">
                 <img src={movie.url} alt={movie.title} style={{
-                width:"100%",height:'50vh'}}/>
+                width:"100%",height:'36vh'}}/>
                 <div className="movie-overlay"></div>
                 <a onClick={onFavoriteClick}>
                 <i class="bi bi-heart" style={{
