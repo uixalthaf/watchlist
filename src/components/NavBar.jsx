@@ -5,7 +5,7 @@ function NavBar(){
             <h2>My Watchlist</h2>
             <div className="navbar-brand">
             <Link to="/home"></Link>  
-            <Link to="/favs"></Link>
+            <Link to="/favs">F</Link>
             </div>
         </nav>
     )
